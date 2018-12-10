@@ -1,5 +1,5 @@
 {
-  "name": "tincanjs",
+  "name": "@easygenerator/tincanjs",
   "description": "Experience API (Tin Can API) Library",
   "version": "0.50.0",
   "private": false,
