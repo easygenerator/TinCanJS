@@ -2344,15 +2344,7 @@ TinCan client library
                 requestCfg.headers["Content-Type"] = "application/json";
                 requestCfg.data = JSON.stringify(versionedStatement);
             }
-            if (stmt.id !== null) {
-                requestCfg.method = "PUT";
-                requestCfg.params = {
-                    statementId: stmt.id
-                };
-            }
-            else {
-                requestCfg.method = "POST";
-            }
+            requestCfg.method = "POST";
 
             if (typeof cfg.callback !== "undefined") {
                 requestCfg.callback = cfg.callback;
